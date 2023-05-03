@@ -7,7 +7,7 @@
 - 2019-CE-28 (Shaheer Mustafa)
 - 2019-CE-31 (Maryam Nasir)
 
-** Supervisor:** Dr. M. Faisal Hayat (Associate Professor at Computer Engineering Department, UET Lahore)
+**Supervisor:** Dr. M. Faisal Hayat (Associate Professor at Computer Engineering Department, UET Lahore)
 
 ## Description
 
