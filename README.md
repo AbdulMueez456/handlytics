@@ -7,19 +7,14 @@
 - 2019-CE-28 (Shaheer Mustafa)
 - 2019-CE-31 (Maryam Nasir)
 
+** Supervisor:** Dr. M. Faisal Hayat (Associate Professor at Computer Engineering Department, UET Lahore)
+
 ## Description
 
 Sign language is a boon for people who are deaf or have hearing difficulties. It enables people to express their thoughts, feelings, and ideas in the same way that any
-other language does. Due to a lack of knowledge and infrastructure for Pakistan
-Sign Language interpretation, the deaf and hard-of-hearing people in Pakistan
-suffer a variety of obstacles. Most people still do not recognize or understand sign
-language communication, making it difficult for the deaf community to engage in
-everyday life activities. In this project, a unique Pakistan Sign Language identification system for recognizing words in Pakistan Sign Language is suggested.
-The communication lacuna for Pakistan’s deaf and hard-of-hearing people can be
-bridged with the use of computer vision and deep learning model. The project’s
-goal is to create an easy-to-use and accurate sign language recognition system that
-has the potential to revolutionize seamless communication for Pakistan’s deaf community so that they can fully participate in daily life activities and gain access to
-better education and job opportunities.
+other language does. Due to a lack of knowledge and infrastructure for **Pakistan Sign Language** interpretation, the deaf and hard-of-hearing people in Pakistan
+suffer a variety of obstacles. Most people still do not recognize or understand sign language communication, making it difficult for the deaf community to engage in
+everyday life activities. In this project, a unique Pakistan Sign Language identification system for recognizing words in Pakistan Sign Language is suggested. The communication lacuna for Pakistan’s deaf and hard-of-hearing people can be bridged with the use of computer vision and deep learning model. The project’s goal is to create an easy-to-use and accurate **sign language recognition system** that has the potential to revolutionize seamless communication for Pakistan’s deaf community so that they can fully participate in daily life activities and gain access to better education and job opportunities.
 
 This application contains a connected **Flask** server to **React** client side.
 
