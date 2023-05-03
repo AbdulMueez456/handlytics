@@ -1,0 +1,53 @@
+.f-container1{
+    display: flex;
+    background-color: white;
+}
+
+.content-div{
+    flex:1;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.img-div{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 10px 0px;
+}
+
+.f-image{
+    width: 85%;
+    height: 70%;
+    object-fit: contain;
+}
+
+.main-heading{
+    color: #938AB7;
+}
+
+.feature-heading{
+    font-weight: bold;
+}
+
+.f-explanation{
+    text-align: justify;
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 830px) {
+    .f-container1{
+        flex-direction: column !important;
+        z-index: 9;
+    }
+    .content-div{
+        padding: 10px 30px;
+    }
+    .f-explanation{
+        font-size: 16px;
+    }
+}
+

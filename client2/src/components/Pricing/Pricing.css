@@ -1,0 +1,33 @@
+.pricing-parent{
+    width: 100%;
+    background-color: white;
+    min-height: 35vh;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    padding: 50px;
+    box-sizing: border-box;
+    flex-direction: column;
+    
+    
+   
+ 
+}
+
+.pricing-parent p{
+    font-size: 20px;
+    text-align: justify;
+}
+
+
+@media only screen and (max-width: 830px) {
+    .pricing-parent p{
+        font-size: 16px;
+    }
+    .pricing-parent{
+        padding: 35px;
+    }
+   
+    
+}
+

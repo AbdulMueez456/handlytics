@@ -1,0 +1,129 @@
+.header-parent{
+    width: 100%;
+    position: relative;
+    top: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    
+
+}
+.header-wrapper{
+    display: flex;
+    width: 53%;
+    flex-direction: column;
+    align-items: flex-end;
+    /* background-color: antiquewhite; */
+    padding-bottom: 250px;
+    padding-right: 80px;
+    /* margin-top: 130px; */
+    
+    
+}
+
+.header-text{
+    color: white;
+    font-weight: bolder;
+    font-size: 2vw;
+    text-align: right;
+    margin-bottom: 0;
+    
+}
+
+.header-subtext {
+    color: #938AB7;
+    font-size: 1.20vw;
+    text-align: right;
+    margin-top: 3px;
+}
+
+.header-btn {
+    background: none;
+    color: white;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    outline: none;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.header-btn-container:hover {
+    background-color: #635988;
+}
+
+.header-btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #9a90c0; */
+    border-radius: 10px;
+    width: 12%;
+    height: 50px;
+    border: 1px solid #9a90c0;
+    padding: 0px 2px;
+}
+
+
+
+@media only screen and (max-width: 1100px) {
+    .header-btn-container {
+        width: 13% !important;
+        height: 35px !important;
+        border-radius: 12px !important;
+    }
+    .header-text{
+        font-size: 20px ;
+    }
+    .header-subtext{
+        font-size: 12px ;
+        margin-top: 4px;
+    }
+    .header-btn{
+        font-size: 10px;
+    }
+    
+
+
+}
+
+
+@media only screen and (max-width: 830px) {
+    .header-parent {
+        display: none;
+    }
+
+    .header2-parent {
+        display: flex !important;
+        height: 100vh !important; 
+        justify-content: center;
+        z-index: 0;
+    }
+}
+
+
+.header2-parent {
+    width: 100%;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    background-color: #13121A;
+    position: relative;
+    top: 0;
+}
+
+
+.header2-text {
+    color: white;
+    font-weight: bolder;
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 0;
+
+}
+
+.header2-subtext {
+    color: #938AB7;
+    font-size: 20px;
+    text-align: center;
+}

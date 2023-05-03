@@ -1,0 +1,31 @@
+.banner-parent{
+    width: 100%;
+    background-color: #13121A;
+    color:#938AB7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-height: 55vh;
+    min-height: 30vh;
+    font-family: 'Lato', sans-serif;
+}
+
+
+.banner-parent h1{
+    font-size: 7vw;
+    text-align: center;
+}
+
+
+
+@media only screen and (max-width: 830px) {
+    .banner-parent h1{
+        font-size: 10vw;
+    }
+    .banner-parent{
+        height: 30vh;
+    }
+    
+}
+

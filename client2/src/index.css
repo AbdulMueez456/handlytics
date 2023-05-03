@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url('./bg.png');
+  background-size: 100% 100vh;
+  background-repeat: no-repeat;
+}
+
+@media only screen and (max-width: 830px) {
+  body{
+    background-image: none;
+    /* background-color: #13121A; */
+  }
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

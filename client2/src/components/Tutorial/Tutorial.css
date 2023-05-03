@@ -1,0 +1,66 @@
+.tut-parent{
+    width: 100%;
+    background-color: #F0F2F4;
+    display: flex;
+    min-height: 50vh;
+
+}
+.tut-section{
+    flex:1;
+    box-sizing: border-box;
+    padding: 20px 50px;
+    display: flex;
+    flex-direction: column;
+}
+.tut-section h3{
+    color: #938AB7;
+}
+.tut-section h2{
+   font-weight: bold;
+}
+
+
+
+.quote-section{
+    flex:1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 20px 50px;
+}
+.quote-section h1{
+    font-size: 5vw;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    color: #938AB7;
+}
+.video{
+    width: 100%;
+    border-radius: 20px;
+
+}
+
+@media only screen and (max-width: 830px) {
+    .tut-parent{
+        flex-direction: column;
+    }
+    .tut-section h2{
+        font-size: 18px;
+    }
+    .video{
+        height: 300px;
+    }
+    .quote-section h1{
+        font-size: 7vw;
+    }
+    
+    
+    
+}
+@media only screen and (min-width: 1200px) {
+    .video{
+        height: 500px;
+    }
+ 
+}

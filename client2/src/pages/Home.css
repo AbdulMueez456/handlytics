@@ -1,0 +1,13 @@
+.particles-container{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+ 
+}
+
+@media only screen and (max-width: 830px) {
+    .particles-container{
+        display: none;
+    }
+}
