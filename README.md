@@ -1,6 +1,13 @@
 # handlytics - Final Year Project
 
-**Pakistan Sign Language Recognition for Word and Sentence Level Signings**
+**Title:** Pakistan Sign Language Recognition for Word and Sentence Level Signings
+
+**Team:**
+- 2019-CE-02 (Abdul Mueez)
+- 2019-CE-28 (Shaheer Mustafa)
+- 2019-CE-31 (Maryam Nasir)
+
+## Description
 
 Sign language is a boon for people who are deaf or have hearing difficulties. It enables people to express their thoughts, feelings, and ideas in the same way that any
 other language does. Due to a lack of knowledge and infrastructure for Pakistan
